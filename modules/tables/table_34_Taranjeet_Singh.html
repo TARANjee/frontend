@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>issue</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .main-center {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        tr:nth-child(odd) {
+            background-color: black;
+            color: white;
+        }
+
+        th:nth-child(even) {
+
+            background-color: #95FC35;
+            color: black;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+        }
+
+        table {
+            width: 80%;
+            height: 50%;
+            border-collapse: collapse;
+        }
+
+        td {
+            text-align: center;
+        }
+
+
+        .greyColor {
+            background: #E5E4E2;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-center">
+        <table>
+            <tr>
+                <th>COLUMN 1</th>
+                <th>COLUMN 2</th>
+                <th>COLUMN 3</th>
+                <th>COLUMN 4</th>
+            </tr>
+            <tr>
+                <td>ID 1</td>
+                <td>Description</td>
+                <td>Description</td>
+                <td>Description</td>
+            </tr>
+            <tr>
+                <td>ID 2</td>
+                <td class="greyColor">Description</td>
+                <td>Description</td>
+                <td class="greyColor">Description</td>
+            </tr>
+            <tr>
+                <td>ID 3</td>
+                <td>Description</td>
+                <td>Description</td>
+                <td>Description</td>
+            </tr>
+            <tr>
+                <td>ID 4</td>
+                <td class="greyColor">Description</td>
+                <td>Description</td>
+                <td class="greyColor">Description</td>
+            </tr>
+            <tr>
+                <td>ID 5</td>
+                <td>Description</td>
+                <td>Description</td>
+                <td>Description</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
